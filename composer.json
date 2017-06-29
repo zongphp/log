@@ -1,0 +1,21 @@
+{
+  "name": "zongphp/log",
+  "description": "日志管理",
+  "type": "project",
+  "keywords": [
+    "log"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "zongphp/config": "~1.0",
+    "zongphp/dir": "~1.0"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "zongphp\\log\\": "src"
+    }
+  }
+}
